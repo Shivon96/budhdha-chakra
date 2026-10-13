@@ -101,6 +101,18 @@ export interface PatternSettings {
   showCenterMedallion: boolean; // Show sacred Buddha / Dharmachakra center
 }
 
+export interface SavedPatternPreset {
+  id: string;
+  name: string;
+  patternId: PatternId;
+  paletteId: string;
+  customColors?: string[];
+  settings: PatternSettings;
+  description?: string;
+  createdAt: string;
+  isBuiltIn?: boolean;
+}
+
 export interface PlaylistStep {
   id: string;
   patternId: PatternId;
