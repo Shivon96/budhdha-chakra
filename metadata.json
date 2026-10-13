@@ -1,0 +1,6 @@
+{
+  "name": "Buddha Chakra WS2812 Controller",
+  "description": "Customizable light pattern designer, real-time simulator, and FastLED/ESP32 code generator for WS2812 pixel LED Buddha Rashmimala circular halos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
